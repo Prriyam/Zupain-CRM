@@ -1,0 +1,23 @@
+# Core libraries
+pandas==1.5.3
+sqlalchemy==2.0.0
+pymysql==1.0.2
+
+# Natural Language Processing
+spacy==3.5.0
+# SpaCy model for English
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+
+# Machine Learning and Text Processing
+faiss-cpu==1.7.2
+scikit-learn==1.2.1
+
+# LangChain for LLM interaction
+langchain==0.0.208
+openai==0.27.0  # OpenAI API package
+
+# Web Application Framework
+streamlit==1.24.0
+
+# Additional libraries
+pickle5==0.0.11  # If you need compatibility with older versions of Python
